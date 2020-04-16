@@ -63,7 +63,7 @@
   * Watch: [Chome Developer Tools (DevTools)](https://www.youtube.com/watch?v=wcFnnxfA70g).
   * Watch: [Chome Devtools for CSS](https://www.youtube.com/watch?v=Z3HGJsNLQ1E) (Ignore anything about bootstrap for now).
 
-### __________ [[Odin Lesson](__________)]
+### Web Development 101 - Fundamentals Part 1 [[Odin Lesson](https://www.theodinproject.com/courses/web-development-101/lessons/fundamentals-part-1)]
   * 
   * 
   * 
