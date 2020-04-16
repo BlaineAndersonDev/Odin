@@ -1,0 +1,210 @@
+/* RESET BEGIN */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, button {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* RESET END */
+
+/* BODY Start */
+body{
+  height: 100vh;
+  border: 1px solid blue;
+}
+#encompassing_container{
+  min-height: 100%;
+  height:100%;
+  position: relative;
+}
+/* BODY End */
+
+/* NAV Start */
+#nav{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+#left_nav{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+#right_nav{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+.nav_item{
+  padding: 0.3em;
+  margin: 0.3em;
+}
+.nav_button{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+.app_square{
+  flex: 1 0 30%;
+}
+.nav_image{
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+/* NAV End */
+
+/* CONTENT Start */
+#content{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.logo_container{
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.logo_image{
+}
+#search_bar{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  border: lightgray solid 1px;
+  border-radius: 50px;
+  width: 500px;
+  padding: 10px;
+}
+.search_icon{
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+}
+.left_icon{
+  justify-content: flex-start;
+  height: 30px;
+  width: 30px;
+}
+.right_icon{
+  justify-content: flex-end;
+  height: 30px;
+  width: 30px;
+}
+#buttons_container{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 40px;
+}
+.button{
+  background-color: #f2f2f2;
+  margin: 10px;
+  padding: 12px 15px;
+  border-radius: 5px;
+  color: black;
+  border: 1px solid #f2f2f2; 
+}button:hover, button:focus{
+  border: 1px solid lightgray;
+  box-shadow: 1px 1px 1px lightgray;
+}
+/* CONTENT END */
+
+/* FOOTER Start */
+#footer{
+  position: absolute;
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+  border-top: 1px solid lightgray;
+  color: gray;
+}
+#left_footer{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+#right_footer{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+.footer_item{
+  padding: 0.3em;
+  margin: 0.3em;
+}
+.footer_button{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+.app_square{
+  flex: 1 0 30%;
+}
+.footer_image{
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+/* FOOTER End */
+
+
+
+
+
+.app_square{}
