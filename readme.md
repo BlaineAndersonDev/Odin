@@ -100,11 +100,8 @@
   * Read: [Javascript Functions](https://javascript.info/function-basics)
   * Study: [Default Parameters](https://javascript.info/function-basics#default-values)
   * Study: [Naming a Function](https://javascript.info/function-basics#function-naming)
-  * 
-  * 
-  * 
 
-### Web Development 101 - ________________ [[Odin Lesson]()]
+### Web Development 101 - Clean Code [[Odin Lesson](https://www.theodinproject.com/courses/web-development-101/lessons/clean-code)]
   * 
   * 
   * 
