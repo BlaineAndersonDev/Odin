@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors</title>
+</head>
+<body>
+  <script>
+    function computerSelection() {
+      const availableActions = ["rock", "paper", "scissors"]
+      return computerAction = availableActions[Math.floor(Math.random() * (availableActions.length))];
+    }; 
+
+    function playRound(playerSelection, computerSelection) {
+      switch(playerSelection.toLowerCase()) {
+        case "rock":
+          return (
+            computerSelection.toLowerCase() == "scissors" ? { outcome: "win", message: "Player Wins! Rock beats Scissors." }
+            : computerSelection.toLowerCase() == "paper" ? { outcome: "lose", message: "Player Loses. Paper beats Rock." }
+            : { outcome: "tie", message: "It's a tie! Double Rocks." }
+          )
+          break;
+        case "paper":
+          return (
+            computerSelection.toLowerCase() == "rock" ? { outcome: "win", message: "Player Wins! Paper beats Rock." }
+            : computerSelection.toLowerCase() == "scissors" ? { outcome: "lose", message: "Player Loses. Scissors beats Paper." }
+            : { outcome: "tie", message: "It's a tie! Double Papers." }
+          )
+          break;
+        case "scissors":
+          return (
+            computerSelection.toLowerCase() == "paper" ? { outcome: "win", message: "Player Wins! Scissors beats Paper." }
+            : computerSelection.toLowerCase() == "rock" ? { outcome: "lose", message: "Player Loses. Rock beats Scissors." }
+            : { outcome: "tie", message: "It's a tie! Double Scissors." }
+          )
+          break;
+        default:
+          return ( { outcome: "error", message: "Invalid Input! Input must be: 'Rock', 'Paper' or 'Scissors'." } )
+      }
+    };
+
+    function game() {
+      let playerScore = 0;
+      let computerScore = 0;
+      let result1 = playRound(window.prompt("Rock, Paper or Scissors?", ""), computerSelection())
+      result1.outcome === "win" ? playerScore++
+      : result1.outcome === "lose" ? computerScore++
+      : null;
+      console.log(result1.message)
+      console.log("playerScore: " + playerScore)
+      console.log("computerScore: " + computerScore)
+      let result2 = playRound(window.prompt("Rock, Paper or Scissors?", ""), computerSelection())
+      result2.outcome === "win" ? playerScore++
+      : result2.outcome === "lose" ? computerScore++
+      : null;
+      console.log(result2.message)
+      console.log("playerScore: " + playerScore)
+      console.log("computerScore: " + computerScore)
+      let result3 = playRound(window.prompt("Rock, Paper or Scissors?", ""), computerSelection())
+      result3.outcome === "win" ? playerScore++
+      : result3.outcome === "lose" ? computerScore++
+      : null;
+      console.log(result3.message)
+      console.log("playerScore: " + playerScore)
+      console.log("computerScore: " + computerScore)
+      let result4 = playRound(window.prompt("Rock, Paper or Scissors?", ""), computerSelection())
+      result4.outcome === "win" ? playerScore++
+      : result4.outcome === "lose" ? computerScore++
+      : null;
+      console.log(result4.message)
+      console.log("playerScore: " + playerScore)
+      console.log("computerScore: " + computerScore)
+      let result5 = playRound(window.prompt("Rock, Paper or Scissors?", ""), computerSelection())
+      result5.outcome === "win" ? playerScore++
+      : result5.outcome === "lose" ? computerScore++
+      : null;
+      console.log(result5.message)
+      console.log("playerScore: " + playerScore)
+      console.log("computerScore: " + computerScore)
+
+      return (
+        playerScore > computerScore ? console.log("Player Wins!!!")
+        : computerScore > playerScore ? console.log("Computer Wins :(")
+        : console.log("It's a Tie!")
+      );
+    };
+
+    game()
+
+
+  </script>
+  
+</body>
+</html>
