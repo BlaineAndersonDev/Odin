@@ -64,34 +64,194 @@
   * Watch: [Chome Devtools for CSS](https://www.youtube.com/watch?v=Z3HGJsNLQ1E) (Ignore anything about bootstrap for now).
 
 ### Web Development 101 - Fundamentals Part 1 [[Odin Lesson](https://www.theodinproject.com/courses/web-development-101/lessons/fundamentals-part-1)]
+  * Javascript can be used within HTML if the `<script>` tag is used.
+  ```
+  <script>
+    let a = 10;
+    let b = 7 * a;
+    console.log("Hello, World!")
+    console.log(23+97)
+    console.log(1+2+3+4+5+6)
+    console.log((4+6+9)/77)
+    console.log(a)
+    console.log(9*a)
+    console.log(b)
+    let max = 57;
+    let actual = max - 13;
+    let percentage = actual / max;
+  </script>
+  ```  
+
+### Web Development 101 - Fundamentals Part 2 [[Odin Lesson](https://www.theodinproject.com/courses/web-development-101/lessons/fundamentals-part-2)]
   * 
   * 
   * 
   * 
   * 
 
-### __________ [[Odin Lesson](__________)]
+### Web Development 101 - Developer Tools 2 [[Odin Lesson]()]
   * 
   * 
   * 
   * 
   * 
 
-### __________ [[Odin Lesson](__________)]
+### Web Development 101 - Fundamentals Part 3 [[Odin Lesson](https://www.theodinproject.com/courses/web-development-101/lessons/fundamentals-part-3?ref=lnav)]
+  * Read: [Javascript Functions](https://javascript.info/function-basics)
+  * Study: [Default Parameters](https://javascript.info/function-basics#default-values)
+  * Study: [Naming a Function](https://javascript.info/function-basics#function-naming)
+  * 
+  * 
+  * 
+
+### Web Development 101 - ________________ [[Odin Lesson]()]
   * 
   * 
   * 
   * 
   * 
 
-### __________ [[Odin Lesson](__________)]
+### Web Development 101 - ________________ [[Odin Lesson]()]
   * 
   * 
   * 
   * 
   * 
 
-### __________ [[Odin Lesson](__________)]
+### Web Development 101 - ________________ [[Odin Lesson]()]
+  * 
+  * 
+  * 
+  * 
+  * 
+
+### Web Development 101 - ________________ [[Odin Lesson]()]
+  * 
+  * 
+  * 
+  * 
+  * 
+
+### Web Development 101 - ________________ [[Odin Lesson]()]
+  * 
+  * 
+  * 
+  * 
+  * 
+
+### Web Development 101 - ________________ [[Odin Lesson]()]
+  * 
+  * 
+  * 
+  * 
+  * 
+
+### Web Development 101 - ________________ [[Odin Lesson]()]
+  * 
+  * 
+  * 
+  * 
+  * 
+
+### Web Development 101 - ________________ [[Odin Lesson]()]
+  * 
+  * 
+  * 
+  * 
+  * 
+
+### Web Development 101 - ________________ [[Odin Lesson]()]
+  * 
+  * 
+  * 
+  * 
+  * 
+
+### Web Development 101 - ________________ [[Odin Lesson]()]
+  * 
+  * 
+  * 
+  * 
+  * 
+
+### Web Development 101 - ________________ [[Odin Lesson]()]
+  * 
+  * 
+  * 
+  * 
+  * 
+
+### Web Development 101 - ________________ [[Odin Lesson]()]
+  * 
+  * 
+  * 
+  * 
+  * 
+
+### Web Development 101 - ________________ [[Odin Lesson]()]
+  * 
+  * 
+  * 
+  * 
+  * 
+
+### Web Development 101 - ________________ [[Odin Lesson]()]
+  * 
+  * 
+  * 
+  * 
+  * 
+
+### Web Development 101 - ________________ [[Odin Lesson]()]
+  * 
+  * 
+  * 
+  * 
+  * 
+
+### Web Development 101 - ________________ [[Odin Lesson]()]
+  * 
+  * 
+  * 
+  * 
+  * 
+
+### Web Development 101 - ________________ [[Odin Lesson]()]
+  * 
+  * 
+  * 
+  * 
+  * 
+
+### Web Development 101 - ________________ [[Odin Lesson]()]
+  * 
+  * 
+  * 
+  * 
+  * 
+
+### Web Development 101 - ________________ [[Odin Lesson]()]
+  * 
+  * 
+  * 
+  * 
+  * 
+
+### Web Development 101 - ________________ [[Odin Lesson]()]
+  * 
+  * 
+  * 
+  * 
+  * 
+
+### Web Development 101 - ________________ [[Odin Lesson]()]
+  * 
+  * 
+  * 
+  * 
+  * 
+
+### Web Development 101 - ________________ [[Odin Lesson]()]
   * 
   * 
   * 
